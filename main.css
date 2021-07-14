@@ -1,0 +1,142 @@
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.announcements {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    background-color: #d8e8e3 ;
+}
+
+.announcements span {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 60%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+a {
+    color: black;
+}
+
+.left-right-section {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.left-right-section .text {
+    color: #1e3932;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f8f6;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-right-section .image {
+    width: 50%;
+    display: flex;
+}
+
+.left-right-section .image img {
+    height: 100%;
+    width: 100%;
+}
+
+.text h1 .text h3{
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text h1{
+    margin-bottom: 24px;
+}
+
+.text h3{
+    margin-bottom: 32px;
+    font-size: 19px;
+}
+
+.text .cta {
+    color: #1e3932 ;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.text .cta:hover {
+    background-color: red;
+}
+
+.chill .text h1 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+}
+
+.top-bottom-sectin {
+    width: 50%;
+}
+
+.sectin-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bottom-sectin .image {
+    width: 100%;
+}
+
+.top-bottom-sectin .image img {
+    width: 100%;
+}
+
+.top-bottom-sectin .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-row {
+    display: flex;
+    flex-direction: column;
+    margin-right: 26px;
+    margin-bottom: 26px;
+}
+
+.last-row .image{
+    width: 100%;
+}
+
+.last-row .image img{
+    width: 100%;
+}
+
+.last-row .text{
+    height: 200px;
+    text-align: center;
+    color: rgba(0,0,0,.87);
+    background-color: #d8e8e3;
+}
+
+.last-row .text p {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.last-row .text p:hover {
+    background-color: rgba(30,57,50,.1);
+}
